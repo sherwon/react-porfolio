@@ -35,6 +35,22 @@ const INFO = {
 
   projects: [
     {
+      title: "Portfolio",
+      description:
+        "This Project for personal Portfolio created using react, and aim also to give refreshing knowledge of react hooks, routing, api",
+      logo: "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
+      linkText: "View Project",
+      link: "https://sherwon.github.io/react_portfolio/",
+    },
+    {
+      title: "Build a 25 + 5 Clock",
+      description:
+        "This project for freecodecamp certification consists solely of HTML, CSS, JS and React.",
+      logo: "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
+      linkText: "View Project",
+      link: "https://codepen.io/sherwin-sayo/pen/OJdaboW?editors=1010",
+    },
+    {
       title: "Banking system",
       description:
         "Creating resfull api for banking system features validation, Crud operation",
@@ -155,14 +171,6 @@ const INFO = {
       logo: "https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/JQuery_logo.svg/256px-JQuery_logo.svg.png",
       linkText: "View Project",
       link: "https://codepen.io/sherwin-sayo/pen/eYxQBjL",
-    },
-    {
-      title: "Build a 25 + 5 Clock",
-      description:
-        "This project for freecodecamp certification consists solely of HTML, CSS, JS and React.",
-      logo: "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
-      linkText: "View Project",
-      link: "https://codepen.io/sherwin-sayo/pen/OJdaboW?editors=1010",
     },
   ],
 

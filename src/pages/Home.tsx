@@ -1,5 +1,3 @@
-import "../style/home.css";
-import image from "../../assets/sherwin1.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faTwitter,
@@ -8,12 +6,17 @@ import {
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
-import INFO from "../../data/user";
-import AllProjects from "../../components/projects/AllProjects.tsx";
+import INFO from "../data/user.ts";
+
+import image from "../assets/sherwin1.png";
+import Square from "../components/Square.tsx";
+import { Skills } from "../components/Skills.tsx";
+import AllProjects from "../components/projects/AllProjects.tsx";
+import "./style/home.css";
 function Home() {
   return (
     <>
-      <div className="container w-screen h-screen">
+      <div className="container parent w-screen">
         <div className="div1">
           <h1 className="text-4xl font-bold text-gray-800 typed-out text-center">
             Hi, I'm Sherwin Sayo
@@ -76,7 +79,20 @@ function Home() {
             height="300"
           />
         </div>
+        <Square />
       </div>
+      <div className="extra">
+        {/* <h1 className="font-bold">SOFTWARE ENGINEER</h1> */}
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 270">
+          <path
+            fill="#9381ff"
+            fill-opacity="1"
+            d="M0,128L30,154.7C60,181,120,235,180,218.7C240,203,300,117,360,85.3C420,53,480,75,540,69.3C600,64,660,32,720,26.7C780,21,840,43,900,80C960,117,1020,171,1080,208C1140,245,1200,267,1260,261.3C1320,256,1380,224,1410,208L1440,192L1440,0L1410,0C1380,0,1320,0,1260,0C1200,0,1140,0,1080,0C1020,0,960,0,900,0C840,0,780,0,720,0C660,0,600,0,540,0C480,0,420,0,360,0C300,0,240,0,180,0C120,0,60,0,30,0L0,0Z"></path>
+        </svg>
+      </div>
+      <section>
+        <Skills />
+      </section>
       <section>
         <AllProjects />
       </section>

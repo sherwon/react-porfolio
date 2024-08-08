@@ -1,8 +1,10 @@
+import "./style/header.css";
+import { Link } from "react-router-dom";
 function Header() {
   return (
     <>
-      <header className="bg-white bg-opacity-5 text-white shadow-lg hidden md:block">
-        <div className="container mx-auto flex items-center h-24">
+      <header className="bg-opacity-5 text-white shadow-lg hidden md:block">
+        <div className=" mx-auto flex items-center h-24">
           <a href="" className="flex items-center justify-center">
             <img
               className="h-16"
@@ -18,29 +20,24 @@ function Header() {
           <nav className="contents font-semibold text-base lg:text-lg">
             <ul className="mx-auto flex items-center">
               <li className="p-5 xl:p-8 active">
-                <a href="">
+                <Link to="/">
                   <span>Home</span>
-                </a>
+                </Link>
               </li>
               <li className="p-5 xl:p-8">
-                <a href="">
+                <Link to="/about">
                   <span>About</span>
-                </a>
+                </Link>
               </li>
               <li className="p-5 xl:p-8">
-                <a href="">
+                <Link to="project">
                   <span>Projects</span>
-                </a>
+                </Link>
               </li>
               <li className="p-5 xl:p-8">
-                <a href="">
+                <Link to="Service">
                   <span>Services</span>
-                </a>
-              </li>
-              <li className="p-5 xl:p-8">
-                <a href="">
-                  <span>Blog</span>
-                </a>
+                </Link>
               </li>
             </ul>
           </nav>

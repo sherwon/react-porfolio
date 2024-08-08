@@ -1,0 +1,8 @@
+header {
+  background-color: var(--primary-color1) !important;
+  padding: 0em 5em 0em 5em;
+}
+button:hover,
+ul li a:hover {
+  color: var(--secondary-color);
+}

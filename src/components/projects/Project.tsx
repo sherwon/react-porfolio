@@ -14,7 +14,7 @@ const Project = (props: ProjectProps) => {
   return (
     <>
       <div className="project">
-        <a href={link}>
+        <a href={link} target="_blank">
           <div className="project-container">
             <div className="project-logo">
               <img src={logo} alt="logo" />
