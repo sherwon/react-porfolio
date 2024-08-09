@@ -2,7 +2,9 @@ import AllProjects from "../components/projects/AllProjects";
 function Project() {
   return (
     <>
-      <AllProjects />
+      <div className="pt-10">
+        <AllProjects />
+      </div>
     </>
   );
 }

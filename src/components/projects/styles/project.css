@@ -20,7 +20,7 @@
 }
 
 .project-container {
-  padding: 30px;
+  padding: 20px;
 }
 
 .project-logo {
@@ -64,8 +64,8 @@
 
 @media (max-width: 900px) {
   .project {
-    display: block !important;
-    height: 300px;
+    display: inline-block;
+    max-height: 300px;
     width: 100% !important;
   }
 }
