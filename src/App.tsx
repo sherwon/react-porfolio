@@ -1,3 +1,4 @@
+import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -15,10 +16,10 @@ function App() {
         <Router>
           <Header />
           <Routes>
-            <Route path="/" Component={Home} />
-            <Route path="/about" Component={About} />
-            <Route path="/project" Component={Project} />
-            <Route path="/service" Component={Service} />
+            <Route path="/react-porfolio/" Component={Home} />
+            <Route path="/react-porfolio/about" Component={About} />
+            <Route path="/react-porfolio/project" Component={Project} />
+            <Route path="/react-porfolio/service" Component={Service} />
           </Routes>
           <Footer />
         </Router>

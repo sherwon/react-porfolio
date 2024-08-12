@@ -1,3 +1,4 @@
+import React from "react";
 import personalQualities from "../data/personalQualities ";
 export const Skills = () => {
   return (

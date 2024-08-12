@@ -1,3 +1,4 @@
+import React from "react";
 import { useState } from "react";
 
 import "./style/header.css";
@@ -23,22 +24,22 @@ function Header() {
           <nav className="contents font-semibold text-base lg:text-lg">
             <ul className="mx-auto flex items-center">
               <li className="p-5 xl:p-8 active">
-                <Link to="/">
+                <Link to="/react-porfolio/">
                   <span>Home</span>
                 </Link>
               </li>
               <li className="p-5 xl:p-8">
-                <Link to="/about">
+                <Link to="/react-porfolio/about">
                   <span>About</span>
                 </Link>
               </li>
               <li className="p-5 xl:p-8">
-                <Link to="project">
+                <Link to="/react-porfolio/project">
                   <span>Projects</span>
                 </Link>
               </li>
               <li className="p-5 xl:p-8">
-                <Link to="Service">
+                <Link to="/react-porfolio/service">
                   <span>Services</span>
                 </Link>
               </li>

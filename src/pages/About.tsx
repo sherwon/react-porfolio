@@ -1,3 +1,4 @@
+import React from "react";
 import image from "../assets/sherwin2.png";
 import "./style/about.css";
 function About() {
