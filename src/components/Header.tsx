@@ -1,9 +1,22 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 import "./style/header.css";
 import { Link } from "react-router-dom";
 function Header() {
   const [navbar, setNavbar] = useState(false);
+  useEffect(() => {
+    const li = document.querySelectorAll("li");
+    li.forEach((list: any) => {
+      list.addEventListener("click", function addActive() {
+        let active = document.querySelector(".active");
+        if (active) {
+          active.className = active.className.replace(/\s*active\s*/, "");
+        }
+
+        list.className += " active";
+      });
+    });
+  }, []);
   return (
     <>
       <nav className="bg-opacity-5 text-white shadow-lg hidden md:block">
@@ -37,7 +50,7 @@ function Header() {
                   <span>Projects</span>
                 </Link>
               </li>
-              <li className="p-5 xl:p-8">
+              <li className="p-5 xl:p-8 ">
                 <Link to="/react-porfolio/service">
                   <span>Services</span>
                 </Link>
@@ -49,7 +62,7 @@ function Header() {
           </button> */}
         </div>
       </nav>
-      <nav className="w-full bg-opacity-5 text-white shadow-lg shadow sm:hidden">
+      <nav className="fixed top-0 left-0  w-full bg-opacity-5 text-white shadow-lg shadow sm:hidden">
         <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
           <div>
             <div className="flex items-center justify-between py-3 md:py-5">
@@ -93,27 +106,44 @@ function Header() {
           </div>
           <div>
             <div
-              className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
+              className={`flex-1 justify-self-center pb-3 md:block md:pb-0 md:mt-0 ${
                 navbar ? "block" : "hidden"
               }`}>
               <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-                <li className="text-white hover:text-indigo-200">
-                  <Link to="/react-porfolio/">Home</Link>
+                <li className="xl:p-8 active">
+                  <Link to="/react-porfolio/">
+                    <span>Home</span>
+                  </Link>
                 </li>
-                <li className="text-white hover:text-indigo-200">
-                  <Link to="/react-porfolio/about">About</Link>
+                <li className="xl:p-8">
+                  <Link to="/react-porfolio/about">
+                    <span>About</span>
+                  </Link>
                 </li>
-                <li className="text-white hover:text-indigo-200">
-                  <Link to="/react-porfolio/project">Projects</Link>
+                <li className="xl:p-8">
+                  <Link to="/react-porfolio/project">
+                    <span>Projects</span>
+                  </Link>
                 </li>
-                <li className="text-white hover:text-indigo-200">
-                  <Link to="/react-porfolio/service">Services</Link>
+                <li className="xl:p-8 ">
+                  <Link to="/react-porfolio/service">
+                    <span>Services</span>
+                  </Link>
                 </li>
               </ul>
             </div>
           </div>
         </div>
       </nav>
+
+      <div
+        className="showThis"
+        style={{
+          lineHeight: "100px",
+          height: "50px",
+        }}>
+        dfs
+      </div>
     </>
   );
 }

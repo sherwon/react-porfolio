@@ -1,3 +1,5 @@
+import Skills from "../components/Skills";
+
 import image from "../assets/sherwin2.png";
 import "./style/about.css";
 function About() {
@@ -10,14 +12,14 @@ function About() {
               <h2 className="text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl lg:text-5xl">
                 Hi 👋 I am Sherwin Sayo
               </h2>
-              <p className="text-xl text-gray-600 mt-3">
+              <p className="text-base  md:text-lg text-700 mt-3">
                 I've worked on a variety of projects over the years and I'm
                 proud of the progress I've made. Collaborating with others is a
                 great way to learn and grow, and I'm always open to new ideas
                 and feedback.
               </p>
 
-              <p className="mt-4 text-xl text-gray-600 dark:text-gray-300 md:mt-8">
+              <p className="mt-4 text-base  md:text-lg text-700 dark:text-gray-300 md:mt-8">
                 <span className="relative inline-block">
                   <span className="relative"> Have a question? </span>
                 </span>
@@ -50,10 +52,10 @@ function About() {
         </div>
       </div>
       <div className="grid grid-cols-4 sm:grid-cols-12 gap-6">
-        <div className="col-span-4 sm:col-span-9">
+        <div className="col-span-8 sm:col-span-12">
           <div className="bg-white shadow rounded-lg p-6">
-            <h2 className="text-xl font-bold mb-4">About Me</h2>
-            <p className="text-xl text-gray-600 mt-3">
+            <h3 className="text-xl font-bold mb-4">About Me</h3>
+            <p className="text-base  md:text-lg text-700 mt-3">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
               finibus est vitae tortor ullamcorper, ut vestibulum velit
               convallis. Aenean posuere risus non velit egestas suscipit. Nunc
@@ -63,22 +65,22 @@ function About() {
               rhoncus id.
             </p>
 
-            <h2 className="text-xl font-bold mt-6 mb-4">Experience</h2>
+            <h3 className="text-xl font-bold mt-6 mb-4">Experience</h3>
             <div className="mb-6">
               <div className="flex justify-between flex-wrap gap-2 w-full">
-                <span className="text-xl text-gray-600 mt-3 font-bold">
+                <span className="text-base  md:text-lg text-700 mt-3 font-bold">
                   Web Developer
                 </span>
                 <p>
-                  <span className="text-xl text-gray-600 mt-3 mr-2">
-                    at ABC Company
+                  <span className="text-base  md:text-lg text-700 mt-3 mr-2">
+                    at Telcom Live Content Inc.
                   </span>
-                  <span className="text-xl text-gray-600 mt-3">
-                    2017 - 2019
+                  <span className="text-base  md:text-lg text-700 mt-3">
+                    2022 - 2023
                   </span>
                 </p>
               </div>
-              <p className="text-xl text-gray-600">
+              <p className="text-base  md:text-lg text-700">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
                 finibus est vitae tortor ullamcorper, ut vestibulum velit
                 convallis. Aenean posuere risus non velit egestas suscipit.
@@ -86,32 +88,7 @@ function About() {
             </div>
           </div>
         </div>
-        <div className="col-span-4 sm:col-span-3">
-          <div className="bg-white shadow rounded-lg p-6">
-            <div className="flex flex-col">
-              <h6 className="text-gray-700 uppercase font-bold tracking-wider mb-2">
-                Skills
-              </h6>
-              <ul>
-                <li className="mb-2">Java</li>
-                <li className="mb-2">Spring Boot</li>
-                <li className="mb-2">SQL</li>
-                <li className="mb-2">JavaScript</li>
-                <li className="mb-2">React</li>
-                <li className="mb-2">Redux/toolkit</li>
-                <li className="mb-2">Node.js</li>
-                <li className="mb-2">HTML/CSS</li>
-                <li className="mb-2">Tailwind Css</li>
-                <li className="mb-2">MySql</li>
-                <li className="mb-2">Vue</li>
-                <li className="mb-2">VueX</li>
-                <li className="mb-2">Docker</li>
-                <li className="mb-2">Wordpress</li>
-                <li className="mb-2">Wix</li>
-              </ul>
-            </div>
-          </div>
-        </div>
+        <Skills />
       </div>
     </>
   );

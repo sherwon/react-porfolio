@@ -1,3 +1,6 @@
+.test {
+  background-image: url("../../assets/fade.png");
+}
 .bck {
   background-color: var(--primary-color1);
 }

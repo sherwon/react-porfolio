@@ -10,7 +10,7 @@ import INFO from "../data/user.ts";
 
 import Certification from "../components/Certification.tsx";
 import image from "../assets/sherwin1.png";
-import { Skills } from "../components/Skills.tsx";
+import WhyMe from "../components/WhyMe.tsx";
 import AllProjects from "../components/projects/AllProjects.tsx";
 import "./style/home.css";
 function Home() {
@@ -91,7 +91,7 @@ function Home() {
       </div>
 
       <section>
-        <Skills />
+        <WhyMe />
       </section>
       <section>
         <Certification />

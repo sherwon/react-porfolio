@@ -1,0 +1,5 @@
+@media (max-width: 900px) {
+  .py-24 {
+    padding: unset !important;
+  }
+}

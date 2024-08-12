@@ -2,7 +2,7 @@ import "./style/footer.css";
 function Footer() {
   return (
     <>
-      <footer className="w-full">
+      <footer className="w-full test">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="py-14 grid grid-cols-12 gap-x-5 gap-y-8">
             <div className="bck col-span-full xl:col-span-4 relative bg-gradient-to-tr rounded-2xl gap-12 p-6 xl:w-72 h-96 flex flex-col justify-center items-center">

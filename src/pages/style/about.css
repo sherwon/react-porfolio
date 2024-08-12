@@ -1,11 +1,6 @@
 @media (max-width: 900px) {
   .wrapper {
-    box-sizing: border-box;
     height: auto;
     /* margin: 5em; */
-  }
-  .h-screen,
-  .relative {
-    height: auto !important;
   }
 }

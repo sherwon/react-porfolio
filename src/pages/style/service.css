@@ -1,8 +1,4 @@
-.container {
-  width: 100vw;
-  height: 100vh;
-}
-.container h2 {
+h2 {
   text-align: center;
   margin-bottom: 60px;
   position: relative;
@@ -32,20 +28,20 @@
   cursor: pointer;
   transition: 0.5s;
 }
-.row .service:hover {
+/* .row .service:hover {
   color: #fff;
   background-color: var(--main-color);
   transform: scale(1.05);
-}
+} */
 .row .service i {
   color: var(--main-color);
   margin-bottom: 20px;
   font-size: 40px;
   transition: 0.5s;
 }
-.row .service:hover i {
+/* .row .service:hover i {
   color: #fff;
-}
+} */
 .row .service h2 {
   font-weight: 600;
   margin-bottom: 20px;
