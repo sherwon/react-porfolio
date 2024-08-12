@@ -16,7 +16,7 @@ import "./style/home.css";
 function Home() {
   return (
     <>
-      <div className="con bg-opacity-5 text-white shadow-lg hidden md:block">
+      <div className="con bg-opacity-5 text-white shadow-lg hidden md:block pt-10">
         <div className="div1 pt-5">
           <h1 className="text-4xl font-bold text-gray-800 typed-out text-center">
             Hi, I'm Sherwin Sayo

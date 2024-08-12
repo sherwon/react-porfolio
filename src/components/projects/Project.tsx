@@ -19,8 +19,12 @@ const Project = (props: ProjectProps) => {
             <div className="project-logo">
               <img src={logo} alt="logo" />
             </div>
-            <div className="project-title">{title}</div>
-            <div className="project-description">{description}</div>
+            <div className="project-title mb-3 text-xl font-bold leading-5">
+              {title}
+            </div>
+            <div className="project-description text-base text-gray-700 md:text-lg">
+              {description}
+            </div>
             <div className="project-link">
               <div className="project-link-icon">
                 <FontAwesomeIcon icon={faLink} />

@@ -18,22 +18,14 @@ export default function Certification() {
             <dl className="col-span-2 grid grid-cols-1 gap-x-8 gap-y-10 text-base leading-7 text-gray-600 sm:grid-cols-2 lg:gap-y-16">
               {certificates.map((certificate, key) => (
                 <div className="relative pl-9" key={key}>
-                  <dt className="font-semibold text-gray-900">
-                    {/* <svg
-                    className="absolute top-1 left-0 h-5 w-5 text-indigo-500"
-                    x-description="Heroicon name: mini/check"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                    aria-hidden="true">
-                    <path
-                      fill-rule="evenodd"
-                      d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-                      clip-rule="evenodd"></path>
-                  </svg> */}
+                  <h6
+                    className="heading2 mb-3 text-xl font-bold leading-5"
+                    style={{ color: "black" }}>
                     {certificate.title}
-                  </dt>
-                  <dd className="mt-2">{certificate.description}</dd>
+                  </h6>
+                  <p className="mt-2 text-base text-gray-700 md:text-lgs">
+                    {certificate.description}
+                  </p>
                 </div>
               ))}
             </dl>
