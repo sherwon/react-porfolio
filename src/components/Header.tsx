@@ -44,9 +44,9 @@ function Header() {
               </li>
             </ul>
           </nav>
-          <button className="border border-white rounded-full font-bold px-8 py-2">
+          {/* <button className="border border-white rounded-full font-bold px-8 py-2">
             Contact me
-          </button>
+          </button> */}
         </div>
       </nav>
       <nav className="w-full bg-opacity-5 text-white shadow-lg shadow sm:hidden">
@@ -98,16 +98,16 @@ function Header() {
               }`}>
               <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
                 <li className="text-white hover:text-indigo-200">
-                  <a href="javascript:void(0)">Home</a>
+                  <Link to="/react-porfolio/">Home</Link>
                 </li>
                 <li className="text-white hover:text-indigo-200">
-                  <a href="javascript:void(0)">Blog</a>
+                  <Link to="/react-porfolio/about">About</Link>
                 </li>
                 <li className="text-white hover:text-indigo-200">
-                  <a href="javascript:void(0)">About US</a>
+                  <Link to="/react-porfolio/project">Projects</Link>
                 </li>
                 <li className="text-white hover:text-indigo-200">
-                  <a href="javascript:void(0)">Contact US</a>
+                  <Link to="/react-porfolio/service">Services</Link>
                 </li>
               </ul>
             </div>

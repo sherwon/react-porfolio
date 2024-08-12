@@ -21,7 +21,7 @@ function Home() {
           <h1 className="text-4xl font-bold text-gray-800 typed-out text-center">
             Hi, I'm Sherwin Sayo
           </h1>
-          <p className="description text-base  md:text-lg">
+          <p className="description text-base  md:text-lg text-700">
             I am a skilled Software Engineer specializing in Spring Boot,
             Node.js, React.js, and Vue.js. With a strong foundation in building
             scalable, secure, and reliable web applications using a variety of

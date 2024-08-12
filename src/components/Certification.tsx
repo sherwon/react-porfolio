@@ -1,4 +1,5 @@
 import certificates from "../data/certificates";
+import "./style/certification.css";
 export default function Certification() {
   return (
     <>

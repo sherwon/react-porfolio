@@ -4,4 +4,8 @@
     height: auto;
     /* margin: 5em; */
   }
+  .h-screen,
+  .relative {
+    height: auto !important;
+  }
 }

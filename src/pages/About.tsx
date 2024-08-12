@@ -49,74 +49,66 @@ function About() {
           </div>
         </div>
       </div>
-      <div className="">
-        <div className="">
-          <div className="grid grid-cols-4 sm:grid-cols-12 gap-6">
-            <div className="col-span-4 sm:col-span-9">
-              <div className="bg-white shadow rounded-lg p-6">
-                <h2 className="text-xl font-bold mb-4">About Me</h2>
-                <p className="text-xl text-gray-600 mt-3">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  finibus est vitae tortor ullamcorper, ut vestibulum velit
-                  convallis. Aenean posuere risus non velit egestas suscipit.
-                  Nunc finibus vel ante id euismod. Vestibulum ante ipsum primis
-                  in faucibus orci luctus et ultrices posuere cubilia Curae;
-                  Aliquam erat volutpat. Nulla vulputate pharetra tellus, in
-                  luctus risus rhoncus id.
-                </p>
+      <div className="grid grid-cols-4 sm:grid-cols-12 gap-6">
+        <div className="col-span-4 sm:col-span-9">
+          <div className="bg-white shadow rounded-lg p-6">
+            <h2 className="text-xl font-bold mb-4">About Me</h2>
+            <p className="text-xl text-gray-600 mt-3">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+              finibus est vitae tortor ullamcorper, ut vestibulum velit
+              convallis. Aenean posuere risus non velit egestas suscipit. Nunc
+              finibus vel ante id euismod. Vestibulum ante ipsum primis in
+              faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam
+              erat volutpat. Nulla vulputate pharetra tellus, in luctus risus
+              rhoncus id.
+            </p>
 
-                <h3 className="font-semibold text-center mt-3 -mb-2">
-                  Find me on
-                </h3>
-
-                <h2 className="text-xl font-bold mt-6 mb-4">Experience</h2>
-                <div className="mb-6">
-                  <div className="flex justify-between flex-wrap gap-2 w-full">
-                    <span className="text-xl text-gray-600 mt-3 font-bold">
-                      Web Developer
-                    </span>
-                    <p>
-                      <span className="text-xl text-gray-600 mt-3 mr-2">
-                        at ABC Company
-                      </span>
-                      <span className="text-xl text-gray-600 mt-3">
-                        2017 - 2019
-                      </span>
-                    </p>
-                  </div>
-                  <p className="text-xl text-gray-600">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                    finibus est vitae tortor ullamcorper, ut vestibulum velit
-                    convallis. Aenean posuere risus non velit egestas suscipit.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-span-4 sm:col-span-3">
-              <div className="bg-white shadow rounded-lg p-6">
-                <div className="flex flex-col">
-                  <span className="text-gray-700 uppercase font-bold tracking-wider mb-2">
-                    Skills
+            <h2 className="text-xl font-bold mt-6 mb-4">Experience</h2>
+            <div className="mb-6">
+              <div className="flex justify-between flex-wrap gap-2 w-full">
+                <span className="text-xl text-gray-600 mt-3 font-bold">
+                  Web Developer
+                </span>
+                <p>
+                  <span className="text-xl text-gray-600 mt-3 mr-2">
+                    at ABC Company
                   </span>
-                  <ul>
-                    <li className="mb-2">Java</li>
-                    <li className="mb-2">Spring Boot</li>
-                    <li className="mb-2">SQL</li>
-                    <li className="mb-2">JavaScript</li>
-                    <li className="mb-2">React</li>
-                    <li className="mb-2">Redux/toolkit</li>
-                    <li className="mb-2">Node.js</li>
-                    <li className="mb-2">HTML/CSS</li>
-                    <li className="mb-2">Tailwind Css</li>
-                    <li className="mb-2">MySql</li>
-                    <li className="mb-2">Vue</li>
-                    <li className="mb-2">VueX</li>
-                    <li className="mb-2">Docker</li>
-                    <li className="mb-2">Wordpress</li>
-                    <li className="mb-2">Wix</li>
-                  </ul>
-                </div>
+                  <span className="text-xl text-gray-600 mt-3">
+                    2017 - 2019
+                  </span>
+                </p>
               </div>
+              <p className="text-xl text-gray-600">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                finibus est vitae tortor ullamcorper, ut vestibulum velit
+                convallis. Aenean posuere risus non velit egestas suscipit.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="col-span-4 sm:col-span-3">
+          <div className="bg-white shadow rounded-lg p-6">
+            <div className="flex flex-col">
+              <h6 className="text-gray-700 uppercase font-bold tracking-wider mb-2">
+                Skills
+              </h6>
+              <ul>
+                <li className="mb-2">Java</li>
+                <li className="mb-2">Spring Boot</li>
+                <li className="mb-2">SQL</li>
+                <li className="mb-2">JavaScript</li>
+                <li className="mb-2">React</li>
+                <li className="mb-2">Redux/toolkit</li>
+                <li className="mb-2">Node.js</li>
+                <li className="mb-2">HTML/CSS</li>
+                <li className="mb-2">Tailwind Css</li>
+                <li className="mb-2">MySql</li>
+                <li className="mb-2">Vue</li>
+                <li className="mb-2">VueX</li>
+                <li className="mb-2">Docker</li>
+                <li className="mb-2">Wordpress</li>
+                <li className="mb-2">Wix</li>
+              </ul>
             </div>
           </div>
         </div>
