@@ -1,4 +1,3 @@
-import React from "react";
 import certificates from "../data/certificates";
 export default function Certification() {
   return (

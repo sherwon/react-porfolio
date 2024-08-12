@@ -1,4 +1,3 @@
-import React from "react";
 import AllProjects from "../components/projects/AllProjects";
 function Project() {
   return (
