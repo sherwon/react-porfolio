@@ -121,8 +121,10 @@ function Footer() {
                 Get In Touch
               </h4>
               <ul className="text-gray-900 transition-all duration-500 grid gap-6">
-                <li>sherwin.sayo@outlook.com</li>
-                <li>+63 994 861 5137</li>
+                <li className="md:text-lg text-700">
+                  sherwin.sayo@outlook.com
+                </li>
+                <li className="md:text-lg text-700">+63 994 861 5137</li>
               </ul>
             </div>
             <div className="block xl:py-16 col-span-full min-[500px]:col-span-6 md:col-span-4 xl:col-span-4">
@@ -132,13 +134,19 @@ function Footer() {
               <div className="flex gap-6 xl:gap-12 max-xl:justify-center">
                 <ul className="text-gray-600 transition-all duration-500 grid gap-6">
                   <li>
-                    <a href="javascript:;">Home</a>
+                    <a href="javascript:;" className="md:text-lg text-700">
+                      Home
+                    </a>
                   </li>
                   <li>
-                    <a href="javascript:;">About </a>
+                    <a href="javascript:;" className="md:text-lg text-700">
+                      About{" "}
+                    </a>
                   </li>
                   <li>
-                    <a href="javascript:;">Contact</a>
+                    <a href="javascript:;" className="md:text-lg text-700">
+                      Contact
+                    </a>
                   </li>
                   {/* <li>
                     <a href="javascript:;">FAQs</a>

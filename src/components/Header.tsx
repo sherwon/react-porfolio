@@ -37,22 +37,22 @@ function Header() {
             <ul className="mx-auto flex items-center">
               <li className="p-5 xl:p-8 active">
                 <Link to="/react-porfolio/">
-                  <span>Home</span>
+                  <span className="md:text-lg text-700">Home</span>
                 </Link>
               </li>
               <li className="p-5 xl:p-8">
                 <Link to="/react-porfolio/about">
-                  <span>About</span>
+                  <span className="md:text-lg text-700">About</span>
                 </Link>
               </li>
               <li className="p-5 xl:p-8">
                 <Link to="/react-porfolio/project">
-                  <span>Projects</span>
+                  <span className="md:text-lg text-700">Projects</span>
                 </Link>
               </li>
               <li className="p-5 xl:p-8 ">
                 <Link to="/react-porfolio/service">
-                  <span>Services</span>
+                  <span className="md:text-lg text-700">Services</span>
                 </Link>
               </li>
             </ul>
@@ -62,7 +62,7 @@ function Header() {
           </button> */}
         </div>
       </nav>
-      <nav className="fixed top-0 left-0  w-full bg-opacity-5 text-white shadow-lg shadow sm:hidden">
+      <nav className="top-0 left-0  w-full bg-opacity-5 text-white shadow-lg shadow sm:hidden">
         <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
           <div>
             <div className="flex items-center justify-between py-3 md:py-5">
@@ -112,22 +112,22 @@ function Header() {
               <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
                 <li className="xl:p-8 active">
                   <Link to="/react-porfolio/">
-                    <span>Home</span>
+                    <span className="md:text-lg text-700">Home</span>
                   </Link>
                 </li>
                 <li className="xl:p-8">
                   <Link to="/react-porfolio/about">
-                    <span>About</span>
+                    <span className="md:text-lg text-700">About</span>
                   </Link>
                 </li>
                 <li className="xl:p-8">
                   <Link to="/react-porfolio/project">
-                    <span>Projects</span>
+                    <span className="md:text-lg text-700">Projects</span>
                   </Link>
                 </li>
                 <li className="xl:p-8 ">
                   <Link to="/react-porfolio/service">
-                    <span>Services</span>
+                    <span className="md:text-lg text-700">Services</span>
                   </Link>
                 </li>
               </ul>
@@ -136,14 +136,14 @@ function Header() {
         </div>
       </nav>
 
-      <div
+      {/* <div
         className="showThis"
         style={{
           lineHeight: "100px",
           height: "50px",
         }}>
         dfs
-      </div>
+      </div> */}
     </>
   );
 }

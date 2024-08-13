@@ -1,6 +1,9 @@
 import Skills from "../components/Skills";
 
 import image from "../assets/sherwin2.png";
+
+import { Experience } from "../data/Experience";
+
 import "./style/about.css";
 function About() {
   return (
@@ -66,26 +69,26 @@ function About() {
             </p>
 
             <h3 className="text-xl font-bold mt-6 mb-4">Experience</h3>
-            <div className="mb-6">
-              <div className="flex justify-between flex-wrap gap-2 w-full">
-                <span className="text-base  md:text-lg text-700 mt-3 font-bold">
-                  Web Developer
-                </span>
-                <p>
-                  <span className="text-base  md:text-lg text-700 mt-3 mr-2">
-                    at Telcom Live Content Inc.
+            {Experience.map((exp, key) => (
+              <div className="mb-6" key={key}>
+                <div className="flex justify-between flex-wrap gap-2 w-full">
+                  <span className="text-base  md:text-lg text-700 mt-3 font-bold">
+                    {exp.role}
                   </span>
-                  <span className="text-base  md:text-lg text-700 mt-3">
-                    2022 - 2023
-                  </span>
+                  <p>
+                    <span className="text-base  md:text-lg text-700 mt-3 mr-2">
+                      at {exp.company}
+                    </span>
+                    <span className="text-base  md:text-lg text-700 mt-3">
+                      {exp.year}
+                    </span>
+                  </p>
+                </div>
+                <p className="text-base  md:text-lg text-700">
+                  {exp.responsibility}
                 </p>
               </div>
-              <p className="text-base  md:text-lg text-700">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                finibus est vitae tortor ullamcorper, ut vestibulum velit
-                convallis. Aenean posuere risus non velit egestas suscipit.
-              </p>
-            </div>
+            ))}
           </div>
         </div>
         <Skills />

@@ -6,6 +6,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Project from "./pages/Project";
 import Service from "./pages/Service";
+import BackToTopButton from "./components/BackToTopButton";
 
 import "./App.css";
 function App() {
@@ -20,6 +21,7 @@ function App() {
             <Route path="/react-porfolio/project" Component={Project} />
             <Route path="/react-porfolio/service" Component={Service} />
           </Routes>
+          <BackToTopButton />
           <Footer />
         </Router>
       </div>
