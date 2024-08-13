@@ -1,59 +1,54 @@
 import Skills from "../components/Skills";
 
 import image from "../assets/sherwin2.png";
-
 import { Experience } from "../data/Experience";
-
+import Socials from "../components/Socials";
 import "./style/about.css";
 function About() {
   return (
     <>
-      <div className="wrapper pt-10 overflow- md:pt-0 sm:pt-16 2xl:pt-16 w-screen h-screen">
-        <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
-          <div className="grid items-center grid-cols-1 md:grid-cols-2">
-            <div>
-              <h2 className="text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl lg:text-5xl">
-                Hi 👋 I am Sherwin Sayo
-              </h2>
-              <p className="text-base  md:text-lg text-700 mt-3">
-                I've worked on a variety of projects over the years and I'm
-                proud of the progress I've made. Collaborating with others is a
-                great way to learn and grow, and I'm always open to new ideas
-                and feedback.
-              </p>
+      <div className="h-auto flex flex-wrap justify-center items-center pt-10 wrapper">
+        <div className="left w-full md:w-1/2 p-5">
+          <h2 className="text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl lg:text-5xl">
+            Hi 👋 I'am Sherwin Sayo
+          </h2>
+          <p className="text-base md:text-lg text-gray-700 mt-3">
+            I've worked on a variety of projects over the years and I'm proud of
+            the progress I've made. Collaborating with others is a great way to
+            learn and grow, and I'm always open to new ideas and feedback.
+          </p>
 
-              <p className="mt-4 text-base  md:text-lg text-700 dark:text-gray-300 md:mt-8">
-                <span className="relative inline-block">
-                  <span className="relative"> Have a question? </span>
-                </span>
-                <br className="block sm:hidden" />
-                Ask me on{" "}
-                <a
-                  href="https://www.linkedin.com/in/sherwin-sayo-384196256/"
-                  title=""
-                  className="transition-all duration-200 text-sky-500 dark:text-sky-400 hover:text-sky-600 dark:hover:text-sky-500 hover:underline"
-                  target="_blank">
-                  Linkedin
-                </a>
-              </p>
-            </div>
+          <p className="mt-4 text-base md:text-lg text-gray-700 dark:text-gray-300 md:mt-8">
+            <span className="relative inline-block">
+              <span className="relative"> Have a question? </span>
+            </span>
+            <br className="block sm:hidden" />
+            Ask me on{" "}
+            <a
+              href="https://www.linkedin.com/in/sherwin-sayo-384196256/"
+              title=""
+              className="transition-all duration-200 text-sky-500 dark:text-sky-400 hover:text-sky-600 dark:hover:text-sky-500 hover:underline"
+              target="_blank">
+              Linkedin
+            </a>
+          </p>
+          <Socials />
+        </div>
 
-            <div className="relative">
-              <img
-                className="absolute inset-x-0 bottom-0 -mb-48 -translate-x-1/2 left-1/2"
-                src="https://cdn.rareblocks.xyz/collection/celebration/images/team/1/blob-shape.svg"
-                alt=""
-              />
-
-              <img
-                className="relative w-full xl:max-w-lg xl:mx-auto 2xl:origin-bottom 2xl:scale-110 -mb-40"
-                src={image}
-                alt=""
-              />
-            </div>
-          </div>
+        <div className="relative right w-full md:w-1/2 mt-8 md:mt-0">
+          <img
+            className="absolute inset-x-0 bottom-0 transform -translate-x-1/2 left-1/2"
+            src="https://cdn.rareblocks.xyz/collection/celebration/images/team/1/blob-shape.svg"
+            alt=""
+          />
+          <img
+            className="relative w-full xl:max-w-lg xl:mx-auto 2xl:origin-bottom 2xl:scale-110"
+            src={image}
+            alt=""
+          />
         </div>
       </div>
+
       <div className="grid grid-cols-4 sm:grid-cols-12 gap-6">
         <div className="col-span-8 sm:col-span-12">
           <div className="bg-white shadow rounded-lg p-6">
