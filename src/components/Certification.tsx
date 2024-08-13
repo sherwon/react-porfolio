@@ -1,6 +1,3 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLink } from "@fortawesome/free-solid-svg-icons";
-
 import certificates from "../data/certificates";
 import { Svg } from "./Svg";
 import "./projects/styles/project.css";
