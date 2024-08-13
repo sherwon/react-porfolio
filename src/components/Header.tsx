@@ -37,22 +37,22 @@ function Header() {
             <ul className="mx-auto flex items-center">
               <li className="p-5 xl:p-8 active">
                 <Link to="/react-porfolio/">
-                  <span className="md:text-lg text-700">Home</span>
+                  <span className="md:text-lg text-700">HOME</span>
                 </Link>
               </li>
               <li className="p-5 xl:p-8">
                 <Link to="/react-porfolio/about">
-                  <span className="md:text-lg text-700">About</span>
+                  <span className="md:text-lg text-700">ABOUT</span>
                 </Link>
               </li>
               <li className="p-5 xl:p-8">
                 <Link to="/react-porfolio/project">
-                  <span className="md:text-lg text-700">Projects</span>
+                  <span className="md:text-lg text-700">PROJECTS</span>
                 </Link>
               </li>
               <li className="p-5 xl:p-8 ">
                 <Link to="/react-porfolio/service">
-                  <span className="md:text-lg text-700">Services</span>
+                  <span className="md:text-lg text-700">SERVICES</span>
                 </Link>
               </li>
             </ul>
@@ -112,22 +112,22 @@ function Header() {
               <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
                 <li className="xl:p-8 active">
                   <Link to="/react-porfolio/">
-                    <span className="md:text-lg text-700">Home</span>
+                    <span className="md:text-lg text-700">HOME</span>
                   </Link>
                 </li>
                 <li className="xl:p-8">
                   <Link to="/react-porfolio/about">
-                    <span className="md:text-lg text-700">About</span>
+                    <span className="md:text-lg text-700">ABOUT</span>
                   </Link>
                 </li>
                 <li className="xl:p-8">
                   <Link to="/react-porfolio/project">
-                    <span className="md:text-lg text-700">Projects</span>
+                    <span className="md:text-lg text-700">PROJECTS</span>
                   </Link>
                 </li>
                 <li className="xl:p-8 ">
                   <Link to="/react-porfolio/service">
-                    <span className="md:text-lg text-700">Services</span>
+                    <span className="md:text-lg text-700">SERVICES</span>
                   </Link>
                 </li>
               </ul>

@@ -8,7 +8,7 @@ function Service() {
         <h2 className="heading2 max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
           SERVICES
         </h2>
-        <div className="row">
+        <div className="row px-6">
           <div className="service">
             <i className="ri-palette-line"></i>
             <h3 className="heading2 mb-3 text-xl font-bold leading-5">
@@ -33,7 +33,7 @@ function Service() {
           </div>
         </div>
 
-        <div className="row">
+        <div className="row px-6">
           <div className="service">
             <i className="ri-store-3-line"></i>
             <h3 className="heading2 mb-3 text-xl font-bold leading-5">
@@ -59,7 +59,7 @@ function Service() {
         </div>
       </div>
 
-      <section className="overflow-hidden bg-white py-8 sm:py-16">
+      <div className="overflow-hidden bg-white sm:py-16 mt-16">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
             <div className="lg:pr-8 lg:pt-4">
@@ -83,7 +83,7 @@ function Service() {
                         viewBox="0 0 20 20"
                         fill="currentColor"
                         aria-hidden="true"
-                        className="absolute left-1 top-1 h-5 w-5 text-indigo-600">
+                        className="absolute absolute1 left-1 top-1 h-5 w-5 text-indigo-600">
                         <path d="M3.196 12.87l-.825.483a.75.75 0 000 1.294l7.25 4.25a.75.75 0 00.758 0l7.25-4.25a.75.75 0 000-1.294l-.825-.484-5.666 3.322a2.25 2.25 0 01-2.276 0L3.196 12.87z"></path>
                         <path d="M3.196 8.87l-.825.483a.75.75 0 000 1.294l7.25 4.25a.75.75 0 00.758 0l7.25-4.25a.75.75 0 000-1.294l-.825-.484-5.666 3.322a2.25 2.25 0 01-2.276 0L3.196 8.87z"></path>
                         <path d="M10.38 1.103a.75.75 0 00-.76 0l-7.25 4.25a.75.75 0 000 1.294l7.25 4.25a.75.75 0 00.76 0l7.25-4.25a.75.75 0 000-1.294l-7.25-4.25z"></path>
@@ -140,17 +140,15 @@ function Service() {
             </div>
             <img
               src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHw4fHxjb21wdXRlcnxlbnwwfDB8fHwxNjkxODE2NjY3fDA&ixlib=rb-4.0.3&q=80&w=1080"
-              alt="Product screenshot"
-              className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
-              width="2432"
-              height="1442"
+              alt="coding"
+              className="w-full max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
             />
           </div>
         </div>
-      </section>
+      </div>
       <div className="max-w-4xl mx-auto px-5 mt-16 mb-10 w-screen">
         <div className="text-center">
-          <h2 className="font-semibold text-3xl">Features you'll love</h2>
+          <h2 className="font-semibold text-3xl">Additional</h2>
           {/* <p className="max-w-md mx-auto mt-2 text-gray-500">
             A responsive documentation template built for everyone who wants to
             create a plugin.

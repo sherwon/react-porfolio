@@ -1,4 +1,9 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLink } from "@fortawesome/free-solid-svg-icons";
+
 import certificates from "../data/certificates";
+import { Svg } from "./Svg";
+import "./projects/styles/project.css";
 import "./style/certification.css";
 export default function Certification() {
   return (
@@ -10,19 +15,22 @@ export default function Certification() {
               <h2 className="heading2 max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
                 CERTIFICATIONS
               </h2>
+              <Svg />
             </div>
             <dl className="col-span-2 grid grid-cols-1 gap-x-8 gap-y-10 text-base leading-7 text-gray-600 sm:grid-cols-2 lg:gap-y-16">
               {certificates.map((certificate, key) => (
-                <div className="relative pl-9" key={key}>
-                  <h6
-                    className="heading2 mb-3 text-xl font-bold leading-5"
-                    style={{ color: "black" }}>
-                    {certificate.title}
-                  </h6>
-                  <p className="mt-2 text-base text-gray-700 md:text-lgs">
-                    {certificate.description}
-                  </p>
-                </div>
+                <a href={certificate.link} target="_blank">
+                  <div className="relative pl-9" key={key}>
+                    <h6
+                      className="heading2 mb-3 text-xl font-bold leading-5"
+                      style={{ color: "black" }}>
+                      {certificate.title}
+                    </h6>
+                    <p className="mt-2 text-base text-gray-700 md:text-lgs">
+                      {certificate.description}
+                    </p>
+                  </div>
+                </a>
               ))}
             </dl>
           </div>

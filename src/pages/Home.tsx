@@ -19,9 +19,9 @@ function Home() {
       <div className="con bg-opacity-5 text-white shadow-lg hidden md:block pt-10">
         <div className="div1 pt-5">
           <h1 className="text-4xl font-bold text-gray-800 typed-out text-center">
-            Hi, I'm Sherwin Sayo
+            Hi, I'm Sherwin
           </h1>
-          <p className="description text-base  md:text-lg text-700">
+          <p className="description text-base  md:text-lg text-700 mt-3">
             I am a skilled Software Engineer specializing in Spring Boot,
             Node.js, React.js, and Vue.js. With a strong foundation in building
             scalable, secure, and reliable web applications using a variety of
@@ -31,7 +31,7 @@ function Home() {
             seek out fresh challenges and opportunities for growth as a
             developer.
           </p>
-          <div className="homepage-socials">
+          <div className="homepage-socials mt-3">
             <a href="#" target="_blank" rel="noreferrer">
               <FontAwesomeIcon
                 icon={faTwitter}

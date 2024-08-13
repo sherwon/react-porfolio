@@ -1,39 +1,46 @@
+import { Link } from "react-router-dom";
+
 const certificates = [
   {
     title: "Software Development Training",
     description:
-      "Rerum repellat labore necessitatibus reprehenderit molestiae praesentium.",
+      "Completed a 5-month intensive training program with Coders Tribe.",
+    link: "https://drive.google.com/file/d/1CrL9HVNO9dYEYTWDWkJ2rZFhdd22poOj/view",
   },
   {
     title: "Oracle Certified Expert Database SQL",
-    description:
-      "Corporis asperiores ea nulla temporibus asperiores non tempore assumenda aut.",
+    description: "Completed 2 weeks of face-to-face training in Cebu City.",
+    link: "https://drive.google.com/file/d/1wo0ZLqCD5VjiYpOwP60yQrBCQsl6HvcU/view",
   },
   {
     title: "Responsive Web Design",
     description:
-      "In sit qui aliquid deleniti et. Ad nobis sunt omnis. Quo sapiente dicta laboriosam.",
+      "Completed FreeCodeCamp online trainig for Responsive web design",
+    link: "https://www.freecodecamp.org/certification/sherwin_say/responsive-web-design",
   },
   {
     title: "Front-end Development Libraries",
-    description:
-      "Sed rerum sunt dignissimos ullam. Iusto iure occaecati voluptate eligendi fugiat sequi.",
+    description: "Completed FreeCodeCamp online training about react and redux",
+    link: "https://www.freecodecamp.org/certification/sherwin_say/front-end-development-libraries",
   },
   {
     title: "Back-end Development and APIs",
     description:
-      "Quos inventore harum enim nesciunt. Aut repellat rerum omnis adipisci.",
+      "Completed FreeCodeCamp online training about Node.js, MonggoDB, Mongose",
+    link: "https://www.freecodecamp.org/certification/sherwin_say/back-end-development-and-apis",
   },
   {
     title: "JavaScript Algorithms and Data Structures",
     description:
-      "Quae sit sunt excepturi fugit veniam voluptatem ipsum commodi.",
+      "Completed FreeCodeCamp online training about Data Structure using JS",
+    link: "https://www.freecodecamp.org/certification/sherwin_say/javascript-algorithms-and-data-structures",
   },
   {
     title:
       "Social Engineering Defense: Protecting Against Human-Driven Threats",
     description:
-      "Eos laudantium repellat sed architecto earum unde incidunt. Illum sit dolores voluptatem.",
+      "Complete 5 hour Discussion with Xaltius Pte Ltd team, about cyber treats",
+    link: "https://truecertificates.com/verified/6HWE7HLZGS",
   },
 ];
 
