@@ -110,7 +110,7 @@ const programmingSkills = [
     experience: "2 years experience",
   },
   {
-    skill: "Java 17",
+    skill: "Java",
     img: "https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg",
     experience: "2 years experience",
   },

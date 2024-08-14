@@ -1,7 +1,7 @@
 import Skills from "../components/Skills";
 
 import image from "../assets/sherwin2.png";
-import { Experience } from "../data/Experience";
+// import { Experience } from "../data/Experience";
 import Socials from "../components/Socials";
 import "./style/about.css";
 function About() {
@@ -13,9 +13,12 @@ function About() {
             Hi 👋 I'am Sherwin Sayo
           </h2>
           <p className="text-base md:text-lg text-gray-700 mt-3">
-            I've worked on a variety of projects over the years and I'm proud of
-            the progress I've made. Collaborating with others is a great way to
-            learn and grow, and I'm always open to new ideas and feedback.
+            Enthusiastic Software Engineer with 1 year and 6 months of
+            experience in web development. Proficient in Spring Boot for backend
+            development and Vue.js, and React.js for front-end work. Committed
+            to clean coding, Agile methodologies, and delivering innovative
+            solutions. Proven ability to handle stressful situations and meet
+            tight deadlines with high-quality results.
           </p>
 
           <p className="mt-4 text-base md:text-lg text-gray-700 dark:text-gray-300 md:mt-8">
@@ -48,46 +51,149 @@ function About() {
           />
         </div>
       </div>
-
-      <div className="grid grid-cols-4 sm:grid-cols-12 gap-6">
-        <div className="col-span-8 sm:col-span-12">
-          <div className="bg-white shadow rounded-lg p-6">
-            <h3 className="text-xl font-bold mb-4">About Me</h3>
-            <p className="text-base  md:text-lg text-700 mt-3">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-              finibus est vitae tortor ullamcorper, ut vestibulum velit
-              convallis. Aenean posuere risus non velit egestas suscipit. Nunc
-              finibus vel ante id euismod. Vestibulum ante ipsum primis in
-              faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam
-              erat volutpat. Nulla vulputate pharetra tellus, in luctus risus
-              rhoncus id.
-            </p>
-
-            <h3 className="text-xl font-bold mt-6 mb-4">Experience</h3>
-            {Experience.map((exp, key) => (
-              <div className="mb-6" key={key}>
-                <div className="flex justify-between flex-wrap gap-2 w-full">
-                  <span className="text-base  md:text-lg text-700 mt-3 font-bold">
-                    {exp.role}
-                  </span>
-                  <p>
-                    <span className="text-base  md:text-lg text-700 mt-3 mr-2">
-                      at {exp.company}
-                    </span>
-                    <span className="text-base  md:text-lg text-700 mt-3">
-                      {exp.year}
-                    </span>
-                  </p>
-                </div>
-                <p className="text-base  md:text-lg text-700">
-                  {exp.responsibility}
-                </p>
+      <div>
+        <section className="text-gray-200 bg-gray-900">
+          <div className="max-w-6xl mx-auto px-5 py-24">
+            <div className="text-center mb-20">
+              <h2 className="text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl lg:text-5xl">
+                My Experience
+              </h2>
+              {/* <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
+                L'informatique est vaste et les langages naissent presque à tout
+                moment, je fais tout mon possible pour être à la hauteur afin de
+                répondre au besoin de mes clients et d'apporter de l'aide aux
+                nouveaux développeurs.
+              </p> */}
+              <div className="flex mt-6 justify-center">
+                <div className="w-16 h-1 rounded-full bg-indigo-500 inline-flex"></div>
               </div>
-            ))}
+            </div>
+            <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
+              <div className="p-10 md:w-1/3 md:mb-0 mb-6 flex flex-col">
+                <div className="pattern-dots">
+                  <div className="rounded bg-gray-800 p-4 transform translate-x-6 -translate-y-6">
+                    <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-green-100 text-green-500 mb-5 flex-shrink-0 p-2">
+                      <svg
+                        className="w-6 h-6"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"></path>
+                      </svg>
+                    </div>
+                    <div className="flex-grow">
+                      <h3 className="text-xl font-bold mb-4">Webdesign</h3>
+                      <p className="leading-relaxed  text-justify text-700">
+                        In addition to my software development skills, I have a
+                        strong background in web design. I use Figma to design
+                        visually appealing and user-friendly web interfaces. My
+                        design approach emphasizes creating cohesive and
+                        engaging user experiences that align with the overall
+                        functionality of the applications I develop. This
+                        combination of design and development allows me to
+                        deliver comprehensive and polished projects.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="p-10 md:w-1/3 md:mb-0 mb-6 flex flex-col">
+                <div className="pattern-dots-md gray-light">
+                  <div className="rounded bg-gray-800 p-4 transform translate-x-6 -translate-y-6">
+                    <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-blue-100 text-blue-500 mb-5 flex-shrink-0">
+                      <svg
+                        className="w-6 h-6"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
+                      </svg>
+                    </div>
+                    <div className="flex-grow">
+                      <h3 className="text-xl font-bold mb-4">
+                        Software Engineer | Telcom Live Content Inc. | June 2022
+                        - November 2023
+                      </h3>
+                      <p className="leading-relaxed  text-justify text-700">
+                        During my tenure as a Software Engineer in, I primarily
+                        focused on building scalable and efficient web
+                        applications using a diverse technology stack. My
+                        expertise lies in developing RESTful APIs and full-stack
+                        applications using Spring Boot, coupled with Thymeleaf
+                        for server-side rendering. I have hands-on experience
+                        with Hibernate JPA for robust and maintainable data
+                        persistence. On the frontend, I have worked extensively
+                        with React, utilizing Redux Toolkit for state
+                        management, and have also developed applications using
+                        Vue.js with Vuex. This combination allowed me to deliver
+                        highly interactive and dynamic user interfaces. For
+                        database management, I have worked with MySQL and
+                        Oracle, ensuring the applications are backed by reliable
+                        and well-optimized relational databases. My experience
+                        spans across the entire development lifecycle, from
+                        initial design and architecture to deployment and
+                        maintenance.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="p-10 md:w-1/3 md:mb-0 mb-6 flex flex-col">
+                <div className="pattern-dots-md gray-light">
+                  <div className="rounded bg-gray-800 p-4 transform translate-x-6 -translate-y-6">
+                    <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-yellow-100 text-yellow-500 mb-5 flex-shrink-0">
+                      <svg
+                        className="w-6 h-6"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4"></path>
+                      </svg>
+                    </div>
+                    <div className="flex-grow">
+                      <h3 className="text-xl font-bold mb-4">
+                        Technical Support Specialist | Weigandt Consulting |
+                        December 2023 - June 2024
+                      </h3>
+                      <p className="leading-relaxed  text-justify text-700">
+                        In my role as a Technical Support Specialist at Weigandt
+                        Consulting, I was responsible for maintaining and
+                        troubleshooting the RESA (Retail Sales Audit) workflows,
+                        a key product of Oracle. My primary task was to address
+                        and resolve issues such as batch failures within the
+                        RESA system, ensuring smooth and uninterrupted
+                        operations. Additionally, I conducted thorough
+                        investigations into any data discrepancies received by
+                        our system, working diligently to identify and rectify
+                        any problems. My role required a deep understanding of
+                        the RESA workflow and the ability to quickly diagnose
+                        and fix issues to support the business’s critical
+                        operations.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
-        <Skills />
+        </section>
       </div>
+      <Skills />
     </>
   );
 }

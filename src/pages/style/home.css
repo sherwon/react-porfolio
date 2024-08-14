@@ -20,8 +20,7 @@ p {
   /* flex-direction: column; */
   height: 80%;
 }
-.con,
-section {
+.con {
   padding: 0rem 5rem 5rem 5rem;
 }
 
@@ -148,12 +147,14 @@ section {
   .div2 {
     width: 100%;
   }
-  .con,
-  section {
+  .con {
     height: auto !important;
     /* background-color: aqua; */
     padding: 0;
-    padding: 5%;
+    padding: 5% 5% 10% 5%;
+  }
+  section {
+    padding-top: 10%;
   }
 
   h1,
