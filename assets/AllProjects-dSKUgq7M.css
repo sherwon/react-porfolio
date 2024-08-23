@@ -1,0 +1,1 @@
+.all-projects-container{display:flex;flex-wrap:wrap;align-items:stretch}.all-projects-project{width:calc(100% / 3);box-sizing:border-box;padding:10px;overflow:hidden}@media (max-width: 600px){.all-projects-project{width:100%;padding:0}}
