@@ -8,20 +8,25 @@ import {
 import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
 import INFO from "../data/user.ts";
 
+import WhyMe from "../components/WhyMe.tsx";
 import Certification from "../components/Certification.tsx";
 import image from "../assets/sherwin1.png";
-import WhyMe from "../components/WhyMe.tsx";
 import AllProjects from "../components/projects/AllProjects.tsx";
+
 import "./style/home.css";
 function Home() {
   return (
     <>
-      <div className="con bg-opacity-5 text-white shadow-lg hidden md:block pt-10">
-        <div className="div1 pt-5">
-          <h1 className="text-4xl font-bold text-gray-800 typed-out text-center">
+      <div className="con bg-opacity-5 text-white shadow-lg hidden md:block tp pl-5">
+        <div className="div1">
+          <h1
+            className=" typed-out text-center text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl lg:text-5xl"
+            data-aos="fade-right">
             Hi, I'm Sherwin
           </h1>
-          <p className="description text-base  md:text-lg text-700 mt-3">
+          <p
+            className="description text-base  md:text-lg text-700 mt-3"
+            data-aos="fade-up-right">
             I am a skilled Software Engineer specializing in Spring Boot,
             Node.js, React.js, and Vue.js. With a strong foundation in building
             scalable, secure, and reliable web applications using a variety of
@@ -31,7 +36,10 @@ function Home() {
             seek out fresh challenges and opportunities for growth as a
             developer.
           </p>
-          <div className="homepage-socials mt-3">
+          <div
+            className="homepage-socials mt-3"
+            data-aos="fade-up-right"
+            data-aos-duration="5000">
             <a href="#" target="_blank" rel="noreferrer">
               <FontAwesomeIcon
                 icon={faTwitter}
@@ -75,8 +83,10 @@ function Home() {
             src={image}
             alt="sherwin sayo profile"
             title="sherwin"
-            width="350"
-            height="300"
+            width="450"
+            height="400"
+            data-aos="fade-up"
+            data-aos-duration="5000"
           />
         </div>
       </div>
@@ -90,13 +100,13 @@ function Home() {
         </svg>
       </div>
 
-      <section>
+      <section className="">
         <WhyMe />
       </section>
-      <section>
+      <section className="">
         <Certification />
       </section>
-      <section>
+      <section className="">
         <AllProjects />
       </section>
     </>

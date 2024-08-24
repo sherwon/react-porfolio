@@ -117,90 +117,48 @@ function Footer() {
             </div>
 
             <div className="block text-center xl:text-left xl:py-16 col-span-full min-[500px]:col-span-6 md:col-span-4 xl:col-span-4 xl:pl-5">
-              <h4 className="text-lg text-gray-900 font-bold mb-9">
+              <h3 className="heading2 mb-3 text-xl font-bold leading-5">
                 Get In Touch
-              </h4>
+              </h3>
               <ul className="text-gray-900 transition-all duration-500 grid gap-6">
-                <li className="md:text-lg text-700">
+                <li className="text-base md:text-lg text-700">
                   sherwin.sayo@outlook.com
                 </li>
-                <li className="md:text-lg text-700">+63 994 861 5137</li>
+                <li className="text-base md:text-lg text-700">
+                  +63 994 861 5137
+                </li>
               </ul>
             </div>
-            <div className="block xl:py-16 col-span-full min-[500px]:col-span-6 md:col-span-4 xl:col-span-4">
-              <h4 className="text-lg text-gray-900 font-bold mb-9 text-center xl:text-left">
+            <div className="block text-center xl:py-16 col-span-full min-[500px]:col-span-6 md:col-span-4 xl:col-span-4">
+              <h3 className="heading2 mb-3 text-xl font-bold leading-5">
                 Quick Links
-              </h4>
+              </h3>
               <div className="flex gap-6 xl:gap-12 max-xl:justify-center">
                 <ul className="text-gray-600 transition-all duration-500 grid gap-6">
                   <li>
-                    <a href="javascript:;" className="md:text-lg text-700">
+                    <a
+                      href="javascript:;"
+                      className="text-base md:text-lg text-700">
                       Home
                     </a>
                   </li>
                   <li>
-                    <a href="javascript:;" className="md:text-lg text-700">
+                    <a
+                      href="javascript:;"
+                      className="text-base md:text-lg text-700">
                       About{" "}
                     </a>
                   </li>
                   <li>
-                    <a href="javascript:;" className="md:text-lg text-700">
+                    <a
+                      href="javascript:;"
+                      className="text-base md:text-lg text-700">
                       Contact
                     </a>
                   </li>
-                  {/* <li>
-                    <a href="javascript:;">FAQs</a>
-                  </li>
-                  <li>
-                    <a href="javascript:;">Price Plan</a>
-                  </li>
-                  <li>
-                    <a href="javascript:;">Features</a>
-                  </li> */}
-                </ul>
-                <ul className="text-gray-600 transition-all duration-500 grid gap-6">
-                  {/* <li>
-                    <a href="javascript:;">Careers</a>
-                  </li> */}
-
-                  {/* <li>
-                    <a href="javascript:;">Products</a>
-                  </li> */}
                 </ul>
               </div>
             </div>
-            {/* <div className="block xl:py-16 col-span-full md:col-span-4 xl:col-span-3">
-              <h4 className="text-lg text-gray-900 font-bold mb-9 text-center xl:text-left">
-                Newsletter
-              </h4> */}
-            {/* <div className="grid gap-7 ">
-                <input
-                  type="text"
-                  name="email"
-                  className="py-2 px-4 border border-gray-300 shadow-sm h-14 text-lg text-gray-800 rounded-full w-full  xl:w-64 placeholder:text-gray-400 focus:outline-none"
-                  placeholder="Enter email.."
-                />
-                <button
-                  type="submit"
-                  className="bck flex gap-2 justify-center items-center py-3.5 px-7 rounded-full text-white hadow-md w-fit transition-all duration-500 mx-auto xl:mx-0 hover:bg-indigo-700">
-                  Subscribe
-                  <svg
-                    width="17"
-                    height="13"
-                    viewBox="0 0 17 13"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path
-                      d="M1.5 6.88281L14.8333 6.88281M10.6667 11.8828L15.0774 7.47207C15.3552 7.19429 15.4941 7.0554 15.4941 6.88281C15.4941 6.71022 15.3552 6.57133 15.0774 6.29356L10.6667 1.88281"
-                      stroke="white"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                  </svg>
-                </button>
-              </div>
-            </div> */}
           </div>
         </div>
         <div className="py-4 bg-indigo-50">

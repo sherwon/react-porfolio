@@ -1,24 +1,26 @@
 import Skills from "../components/Skills";
 
 import image from "../assets/sherwin2.png";
-// import { Experience } from "../data/Experience";
 import Socials from "../components/Socials";
 import "./style/about.css";
 function About() {
+  const minHeight = {
+    minHeight: "500px",
+  };
   return (
     <>
-      <div className="h-auto flex flex-wrap justify-center items-center pt-10 wrapper">
-        <div className="left w-full md:w-1/2 p-5">
+      <div className="h-auto flex flex-wrap justify-center items-center wrapper tp">
+        <div className="left w-full md:w-1/2 p-5" data-aos="fade-right">
           <h2 className="text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl lg:text-5xl">
             Hi 👋 I'am Sherwin Sayo
           </h2>
           <p className="text-base md:text-lg text-gray-700 mt-3">
-            Enthusiastic Software Engineer with 1 year and 6 months of
-            experience in web development. Proficient in Spring Boot for backend
-            development and Vue.js, and React.js for front-end work. Committed
-            to clean coding, Agile methodologies, and delivering innovative
-            solutions. Proven ability to handle stressful situations and meet
-            tight deadlines with high-quality results.
+            Enthusiastic Software Engineer with almost 2 years of experience in
+            web development. Proficient in Spring Boot for backend development
+            and Vue.js, and React.js for front-end work. Committed to clean
+            coding, Agile methodologies, and delivering innovative solutions.
+            Proven ability to handle stressful situations and meet tight
+            deadlines with high-quality results.
           </p>
 
           <p className="mt-4 text-base md:text-lg text-gray-700 dark:text-gray-300 md:mt-8">
@@ -38,7 +40,9 @@ function About() {
           <Socials />
         </div>
 
-        <div className="relative right w-full md:w-1/2 mt-8 md:mt-0">
+        <div
+          className="relative right w-full md:w-1/2 mt-8 md:mt-0"
+          data-aos="flip-left">
           <img
             className="absolute inset-x-0 bottom-0 transform -translate-x-1/2 left-1/2"
             src="https://cdn.rareblocks.xyz/collection/celebration/images/team/1/blob-shape.svg"
@@ -53,19 +57,18 @@ function About() {
       </div>
       <div className="">
         <section className="text-gray-200 pattern-cross-dots-xl">
-          <div className="max-w-6xl mx-auto px-5 py-24">
-            <div className="text-center mb-20">
-              <h2 className="text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl lg:text-5xl">
+          <div className=" mx-auto px-5">
+            <div className="text-center mb-10">
+              <h2 className="font-bold leading-tight text-black dark:text-white sm:text-4xl">
                 My Experience
               </h2>
-              <div className="flex mt-6 justify-center">
-                <div className="w-16 h-1 rounded-full bg-indigo-500 inline-flex"></div>
-              </div>
             </div>
             <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
-              <div className="p-10 md:w-1/3 md:mb-0 mb-6 flex flex-col">
-                <div className="pattern-cross-dots-xl">
-                  <div className="rounded bg-gray-800 p-4">
+              <div
+                className="p-10 md:w-1/2 md:mb-0 mb-6 flex flex-col"
+                data-aos="zoom-in-down">
+                <div className="">
+                  <div className="rounded bg-gray-800 p-4" style={minHeight}>
                     <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-green-100 text-green-500 mb-5 flex-shrink-0 p-2">
                       <svg
                         className="w-6 h-6"
@@ -96,9 +99,11 @@ function About() {
                   </div>
                 </div>
               </div>
-              <div className="p-10 md:w-1/3 md:mb-0 mb-6 flex flex-col">
-                <div className="pattern-dots-md gray-light">
-                  <div className="rounded bg-gray-800 p-4">
+              <div
+                className="p-10 md:w-1/2 md:mb-0 mb-6 flex flex-col "
+                data-aos="zoom-in-down">
+                <div className="gray-light">
+                  <div className="rounded bg-gray-800 p-5" style={minHeight}>
                     <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-blue-100 text-blue-500 mb-5 flex-shrink-0">
                       <svg
                         className="w-6 h-6"
@@ -119,32 +124,34 @@ function About() {
                         - November 2023
                       </h3>
                       <p className="leading-relaxed  text-justify text-700">
-                        During my tenure as a Software Engineer in, I primarily
-                        focused on building scalable and efficient web
-                        applications using a diverse technology stack. My
-                        expertise lies in developing RESTful APIs and full-stack
-                        applications using Spring Boot, coupled with Thymeleaf
-                        for server-side rendering. I have hands-on experience
-                        with Hibernate JPA for robust and maintainable data
-                        persistence. On the frontend, I have worked extensively
-                        with React, utilizing Redux Toolkit for state
-                        management, and have also developed applications using
-                        Vue.js with Vuex. This combination allowed me to deliver
-                        highly interactive and dynamic user interfaces. For
-                        database management, I have worked with MySQL and
-                        Oracle, ensuring the applications are backed by reliable
-                        and well-optimized relational databases. My experience
-                        spans across the entire development lifecycle, from
-                        initial design and architecture to deployment and
-                        maintenance.
+                        During my tenure as a Software Engineer in Telcom Live
+                        Content Inc., I primarily focused on building scalable
+                        and efficient web applications using a diverse
+                        technology stack. My expertise lies in developing
+                        RESTful APIs and full-stack applications using Spring
+                        Boot, coupled with Thymeleaf for server-side rendering.
+                        I have hands-on experience with Hibernate JPA for robust
+                        and maintainable data persistence. On the frontend, I
+                        have worked extensively with React, utilizing Redux
+                        Toolkit for state management, and have also developed
+                        applications using Vue.js with Vuex. This combination
+                        allowed me to deliver highly interactive and dynamic
+                        user interfaces. For database management, I have worked
+                        with MySQL and Oracle, ensuring the applications are
+                        backed by reliable and well-optimized relational
+                        databases. My experience spans across the entire
+                        development lifecycle, from initial design and
+                        architecture to deployment and maintenance.
                       </p>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="p-10 md:w-1/3 md:mb-0 mb-6 flex flex-col">
-                <div className="pattern-dots-md gray-light">
-                  <div className="rounded bg-gray-800 p-4">
+              <div
+                className="p-10 md:w-1/2 md:mb-0 mb-6 flex flex-col"
+                data-aos="zoom-in-down">
+                <div className="gray-light">
+                  <div className="rounded bg-gray-800 p-4" style={minHeight}>
                     <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-yellow-100 text-yellow-500 mb-5 flex-shrink-0">
                       <svg
                         className="w-6 h-6"

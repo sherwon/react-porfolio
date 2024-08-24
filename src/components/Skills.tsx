@@ -3,8 +3,8 @@ import "./style/skills.css";
 
 const Skills = () => {
   return (
-    <div className="skills-section">
-      <h2 className="text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl lg:text-5xl text-center">
+    <div className="skills-section mt-10 mb-10" data-aos="fade-right">
+      <h2 className="font-bold leading-tight text-black dark:text-white sm:text-4xl text-center">
         My Skills
       </h2>
       <div className="skills-container">

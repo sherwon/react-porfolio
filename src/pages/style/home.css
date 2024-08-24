@@ -18,11 +18,11 @@ p {
   box-sizing: border-box;
   flex-wrap: wrap;
   /* flex-direction: column; */
-  height: 80%;
+  height: 100%;
 }
-.con {
-  padding: 0rem 5rem 5rem 5rem;
-}
+/* .con {
+  padding: rem 5rem 5rem 0rem;
+} */
 
 .div1,
 .div2 {
@@ -33,7 +33,7 @@ p {
   flex-wrap: wrap;
   flex-direction: column;
   box-sizing: border-box;
-  /* margin-top: 12%; */
+  padding: 0% 5% 0% 5%;
 }
 
 .typed-out {
@@ -41,41 +41,20 @@ p {
   overflow: hidden;
   border-radius: 4px;
   white-space: nowrap;
-  /* animation: typing 1s steps(20, end) forwards, blinking 1.2s infinite;
-  animation-delay: 2s; */
-  font-size: 1.6rem;
   width: 100%;
   color: var(--tertiary-color) !important;
-  height: 2em;
+  padding: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-family: var(--primary-font);
 }
-/* @keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
-}
-@keyframes blinking {
-  from {
-    border-color: transparent;
-  }
-  to {
-    border-color: var(--tertiary-color);
-  }
-} */
 
 .description {
   font-family: var(--secondary-font);
   box-sizing: border-box;
   padding: 12px;
-  /* animation: move 3s ease-out; */
   color: var(--tertiary-color);
-  /* text-align: center; */
 }
 
 @keyframes move {
@@ -106,15 +85,15 @@ p {
 .homepage-social-icon:hover {
   color: var(--secondary-color);
 }
-.extra {
+/* .extra {
   display: flex;
   position: relative;
   align-items: center;
   justify-content: center;
   height: auto !important;
-}
+} */
 
-.extra h1 {
+/* .extra h1 {
   position: absolute;
   background-color: var(--secondary-color);
   width: 80%;
@@ -128,7 +107,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-}
+} */
 
 @media (max-width: 900px) {
   .con {
@@ -137,7 +116,6 @@ p {
     justify-content: center;
     flex-wrap: wrap-reverse;
     height: auto !important;
-    /* padding: 100px; */
   }
 
   .extra {
@@ -147,11 +125,12 @@ p {
   .div2 {
     width: 100%;
   }
+  .div2 img {
+    display: none;
+  }
   .con {
     height: auto !important;
-    /* background-color: aqua; */
     padding: 0;
-    padding: 5% 5% 10% 5%;
   }
   section {
     padding-top: 10%;
@@ -164,5 +143,8 @@ p {
   h5,
   h6 {
     font-size: var(--font-size-medium) !important;
+  }
+  .div2 {
+    display: none;
   }
 }

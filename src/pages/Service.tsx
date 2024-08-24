@@ -1,15 +1,19 @@
-import { features } from "../data/features";
-
+import "../components/projects/styles/project.css";
 import "./style/service.css";
 function Service() {
   return (
     <>
-      <div className="pt-10">
-        <h2 className="heading2 max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
+      <div className="tp">
+        <h1
+          className="text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl lg:text-5xl text-center"
+          data-aos="fade-down">
           SERVICES
-        </h2>
-        <div className="row px-6">
-          <div className="service">
+        </h1>
+
+        <div className="row px-10 pt-5">
+          <div
+            className="service p-8 space-y-3 border-2 border-blue-400 dark:border-blue-300 rounded-xl"
+            data-aos="fade-right">
             <i className="ri-palette-line"></i>
             <h3 className="heading2 mb-3 text-xl font-bold leading-5">
               Web Design
@@ -20,7 +24,9 @@ function Service() {
               aesthetically pleasing and highly functional.
             </p>
           </div>
-          <div className="service">
+          <div
+            className="service p-8 space-y-3 border-2 border-blue-400 dark:border-blue-300 rounded-xl"
+            data-aos="fade-left">
             <i className="ri-macbook-line"></i>
             <h3 className="heading2 mb-3 text-xl font-bold leading-5">
               Web Development
@@ -33,8 +39,10 @@ function Service() {
           </div>
         </div>
 
-        <div className="row px-6">
-          <div className="service">
+        <div className="row px-10 pt-5">
+          <div
+            className="service p-8 space-y-3 border-2 border-blue-400 dark:border-blue-300 rounded-xl"
+            data-aos="fade-right">
             <i className="ri-store-3-line"></i>
             <h3 className="heading2 mb-3 text-xl font-bold leading-5">
               CMS Development
@@ -45,7 +53,9 @@ function Service() {
               user-friendly and tailored to your specific needs.
             </p>
           </div>
-          <div className="service">
+          <div
+            className="service p-8 space-y-3 border-2 border-blue-400 dark:border-blue-300 rounded-xl"
+            data-aos="fade-left">
             <i className="ri-database-2-line"></i>
             <h3 className="heading2 mb-3 text-xl font-bold leading-5">
               Technical Support
@@ -62,7 +72,7 @@ function Service() {
       <div className="overflow-hidden bg-white sm:py-16 mt-16">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
-            <div className="lg:pr-8 lg:pt-4">
+            <div className="lg:pr-8 lg:pt-4" data-aos="fade-right">
               <div className="lg:max-w-lg">
                 {/* <h2 className="text-base font-semibold leading-7 text-indigo-600">
                   Produce faster
@@ -142,49 +152,9 @@ function Service() {
               src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHw4fHxjb21wdXRlcnxlbnwwfDB8fHwxNjkxODE2NjY3fDA&ixlib=rb-4.0.3&q=80&w=1080"
               alt="coding"
               className="w-full max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
+              data-aos="fade-left"
             />
           </div>
-        </div>
-      </div>
-      <div className="max-w-4xl mx-auto px-5 mt-16 mb-10 w-screen">
-        <div className="text-center">
-          <h2 className="font-semibold text-3xl">Additional</h2>
-          {/* <p className="max-w-md mx-auto mt-2 text-gray-500">
-            A responsive documentation template built for everyone who wants to
-            create a plugin.
-          </p> */}
-        </div>
-        <div>
-          {features.map((feature, key) => (
-            <div className=" gap-10 mt-10" key={key}>
-              <div className="flex gap-4 items-start">
-                <span className="text-violet-600 bg-violet-500/10 p-3 rounded-full">
-                  <svg
-                    width="15"
-                    height="15"
-                    viewBox="0 0 15 15"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="w-5 h-5">
-                    <path
-                      d="M0.849976 1.74998C0.849976 1.25292 1.25292 0.849976 1.74998 0.849976H3.24998C3.74703 0.849976 4.14998 1.25292 4.14998 1.74998V2.04998H10.85V1.74998C10.85 1.25292 11.2529 0.849976 11.75 0.849976H13.25C13.747 0.849976 14.15 1.25292 14.15 1.74998V3.24998C14.15 3.74703 13.747 4.14998 13.25 4.14998H12.95V10.85H13.25C13.747 10.85 14.15 11.2529 14.15 11.75V13.25C14.15 13.747 13.747 14.15 13.25 14.15H11.75C11.2529 14.15 10.85 13.747 10.85 13.25V12.95H4.14998V13.25C4.14998 13.747 3.74703 14.15 3.24998 14.15H1.74998C1.25292 14.15 0.849976 13.747 0.849976 13.25V11.75C0.849976 11.2529 1.25292 10.85 1.74998 10.85H2.04998V4.14998H1.74998C1.25292 4.14998 0.849976 3.74703 0.849976 3.24998V1.74998ZM2.94998 4.14998V10.85H3.24998C3.74703 10.85 4.14998 11.2529 4.14998 11.75V12.05H10.85V11.75C10.85 11.2529 11.2529 10.85 11.75 10.85H12.05V4.14998H11.75C11.2529 4.14998 10.85 3.74703 10.85 3.24998V2.94998H4.14998V3.24998C4.14998 3.74703 3.74703 4.14998 3.24998 4.14998H2.94998ZM2.34998 1.74998H1.74998V2.34998V2.64998V3.24998H2.34998H2.64998H3.24998V2.64998V2.34998V1.74998H2.64998H2.34998ZM5.09998 5.99998C5.09998 5.50292 5.50292 5.09998 5.99998 5.09998H6.99998C7.49703 5.09998 7.89998 5.50292 7.89998 5.99998V6.99998C7.89998 7.03591 7.89787 7.07134 7.89378 7.10618C7.92861 7.10208 7.96405 7.09998 7.99998 7.09998H8.99998C9.49703 7.09998 9.89998 7.50292 9.89998 7.99998V8.99998C9.89998 9.49703 9.49703 9.89998 8.99998 9.89998H7.99998C7.50292 9.89998 7.09998 9.49703 7.09998 8.99998V7.99998C7.09998 7.96405 7.10208 7.92861 7.10618 7.89378C7.07134 7.89787 7.03591 7.89998 6.99998 7.89998H5.99998C5.50292 7.89998 5.09998 7.49703 5.09998 6.99998V5.99998ZM6.09998 5.99998H5.99998V6.09998V6.89998V6.99998H6.09998H6.89998H6.99998V6.89998V6.09998V5.99998H6.89998H6.09998ZM7.99998 7.99998H8.09998H8.89998H8.99998V8.09998V8.89998V8.99998H8.89998H8.09998H7.99998V8.89998V8.09998V7.99998ZM2.64998 11.75H2.34998H1.74998V12.35V12.65V13.25H2.34998H2.64998H3.24998V12.65V12.35V11.75H2.64998ZM11.75 1.74998H12.35H12.65H13.25V2.34998V2.64998V3.24998H12.65H12.35H11.75V2.64998V2.34998V1.74998ZM12.65 11.75H12.35H11.75V12.35V12.65V13.25H12.35H12.65H13.25V12.65V12.35V11.75H12.65Z"
-                      fill="currentColor"
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"></path>
-                  </svg>
-                </span>
-                <div>
-                  <h3 className="heading2 mb-3 text-xl font-bold leading-5">
-                    {feature.title}
-                  </h3>
-                  <p className="text-base  md:text-lg text-700">
-                    {" "}
-                    {feature.description}
-                  </p>
-                </div>
-              </div>
-            </div>
-          ))}
         </div>
       </div>
     </>

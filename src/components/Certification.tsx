@@ -9,14 +9,19 @@ export default function Certification() {
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
             <div>
-              <h2 className="heading2 max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
+              <h2
+                className="heading2 max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto"
+                data-aos="fade-right">
                 CERTIFICATIONS
               </h2>
               <Svg />
             </div>
             <dl className="col-span-2 grid grid-cols-1 gap-x-8 gap-y-10 text-base leading-7 text-gray-600 sm:grid-cols-2 lg:gap-y-16">
               {certificates.map((certificate, key) => (
-                <a href={certificate.link} target="_blank">
+                <a
+                  href={certificate.link}
+                  target="_blank"
+                  data-aos="fade-up-right">
                   <div className="relative pl-9" key={key}>
                     <h6
                       className="heading2 mb-3 text-xl font-bold leading-5"

@@ -1,7 +1,7 @@
 export function Svg() {
   return (
     <>
-      <div className="mx-auto ">
+      <div className="mx-auto " data-aos="fade-up-left">
         <svg
           className="w-full md:w-80"
           viewBox="0 0 564 430"
