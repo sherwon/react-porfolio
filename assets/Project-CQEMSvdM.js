@@ -1,0 +1,1 @@
+import{j as r}from"./index-Cvnu4G_o.js";import{A as t}from"./AllProjects-Bwx24-SP.js";import"./index-CiDWqE7N.js";/* empty css                */function m(){return r.jsx(r.Fragment,{children:r.jsx("div",{className:"tp",children:r.jsx(t,{})})})}export{m as default};
