@@ -147,7 +147,7 @@ function About() {
                   </div>
                 </div>
               </div>
-              <div
+              {/* <div
                 className="p-10 md:w-1/2 md:mb-0 mb-6 flex flex-col"
                 data-aos="zoom-in-down">
                 <div className="gray-light">
@@ -189,7 +189,7 @@ function About() {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </section>
